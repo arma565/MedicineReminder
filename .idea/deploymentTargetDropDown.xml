@@ -14,6 +14,9 @@
       <entry key="testDeleteMedicineReminder_ValidMedicineReminder_SuccessfullyDeleteMedicineReminder()">
         <State />
       </entry>
+      <entry key="testGetMedicineReminderList_NoParameter_GetMedicineReminderListSuccessfully()">
+        <State />
+      </entry>
       <entry key="testUpdateMedicineReminder_MedicineReminder_MedicineReminderUpdateSuccessfully()">
         <State />
       </entry>
