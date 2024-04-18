@@ -30,11 +30,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
     }
     kotlin{
-        jvmToolchain(17)
+        jvmToolchain(21)
     }
     buildFeatures {
         dataBinding true
@@ -53,9 +53,12 @@ dependencies {
     implementation "androidx.test:core:1.5.0"
     implementation 'androidx.test.ext:junit-ktx:1.1.5'
     implementation 'androidx.activity:activity-ktx:1.8.2'
+    implementation "androidx.test:core:1.5.0"
+    implementation 'androidx.test.ext:junit-ktx:1.1.5'
     testImplementation "junit:junit:4.13.2"
     androidTestImplementation "junit:junit:4.13.2"
     androidTestImplementation "androidx.arch.core:core-testing:2.2.0"
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation "androidx.multidex:multidex:2.0.1"
     implementation 'androidx.navigation:navigation-fragment-ktx:2.7.7'
     implementation 'androidx.navigation:navigation-ui-ktx:2.7.7'

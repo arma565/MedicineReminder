@@ -2,7 +2,19 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="MedicineReminderDataBaseTest">
+        <State />
+      </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="testCreateMedicineReminder_MedicineReminder_MedicineReminderCreateSuccessfully()">
+        <State />
+      </entry>
+      <entry key="testDeleteMedicineReminder_ValidMedicineReminder_SuccessfullyDeleteMedicineReminder()">
+        <State />
+      </entry>
+      <entry key="testUpdateMedicineReminder_MedicineReminder_MedicineReminderUpdateSuccessfully()">
         <State />
       </entry>
     </value>
